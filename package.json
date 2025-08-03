@@ -1,0 +1,26 @@
+{
+  "name": "@accelera/logger",
+  "version": "0.1.0",
+  "description": "A simple logging solution for JavaScript/TypeScript",
+  "keywords": [
+    "logging",
+    "console",
+    "web",
+    "typescript"
+  ],
+  "homepage": "https://github.com/AcceleraSoft/logger#readme",
+  "bugs": {
+    "url": "https://github.com/AcceleraSoft/logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcceleraSoft/logger.git"
+  },
+  "license": "MIT",
+  "author": "Sam Vervaeck",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
