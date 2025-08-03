@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { hash } from "../util";
+import { hash, toRGB } from "../util";
 import type { Levels, LevelStyles, Namespace, Reporter } from "..";
 import { defaultLevels } from "../default";
 
@@ -96,8 +96,4 @@ export default class ConsoleReporter<L extends Levels = typeof defaultLevels> im
     console.log(out);
   }
 
-}
-
-function toRGB(c: number): [r: number, g: number, b: number] {
-  return [ c & 255, (c >> 8) & 255, (c >> 16) & 255 ]
 }
