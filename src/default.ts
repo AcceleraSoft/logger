@@ -1,4 +1,4 @@
-import { Levels } from ".";
+import type { Levels } from "./index.js";
 
 export const defaultLevels = {
   debug: 0,

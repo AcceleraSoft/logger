@@ -1,7 +1,7 @@
 import type { ChalkInstance } from "chalk"
-import { defaultLevels } from "./default";
+import { defaultLevels } from "./default.js";
 
-export { default as ConsoleReporter } from "./reporter/console"
+export { default as ConsoleReporter } from "./reporter/console.js"
 
 export type LevelDesc = {
   display: string;

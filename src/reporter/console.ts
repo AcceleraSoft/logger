@@ -1,7 +1,7 @@
 import chalk from "chalk";
-import { hash, toRGB } from "../util";
-import type { Levels, LevelStyles, Namespace, Reporter } from "..";
-import { defaultLevels } from "../default";
+import { hash, toRGB } from "../util.js";
+import type { Levels, LevelStyles, Namespace, Reporter } from "../index.js";
+import { defaultLevels } from "../default.js";
 
 const defaultLevelStyles = {
   'error': {
